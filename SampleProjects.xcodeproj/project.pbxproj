@@ -11,6 +11,8 @@
 		3603F77128CDEA03002FF965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3603F77028CDEA03002FF965 /* ContentView.swift */; };
 		3603F77328CDEA07002FF965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3603F77228CDEA07002FF965 /* Assets.xcassets */; };
 		3603F77628CDEA07002FF965 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3603F77528CDEA07002FF965 /* Preview Assets.xcassets */; };
+		3603F77E28CDED0F002FF965 /* CoordinateSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3603F77D28CDED0F002FF965 /* CoordinateSpaceView.swift */; };
+		3603F78328CDEDEC002FF965 /* MidpointPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3603F78228CDEDEC002FF965 /* MidpointPreferenceKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3603F77028CDEA03002FF965 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3603F77228CDEA07002FF965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3603F77528CDEA07002FF965 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3603F77D28CDED0F002FF965 /* CoordinateSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSpaceView.swift; sourceTree = "<group>"; };
+		3603F78228CDEDEC002FF965 /* MidpointPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidpointPreferenceKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,9 @@
 		3603F76D28CDEA03002FF965 /* SampleProjects */ = {
 			isa = PBXGroup;
 			children = (
+				3603F77C28CDECED002FF965 /* Views */,
+				3603F78028CDED97002FF965 /* Utils */,
+				3603F78128CDEDC0002FF965 /* PreferenceKeys */,
 				3603F76E28CDEA03002FF965 /* SampleProjectsApp.swift */,
 				3603F77028CDEA03002FF965 /* ContentView.swift */,
 				3603F77228CDEA07002FF965 /* Assets.xcassets */,
@@ -65,6 +72,37 @@
 				3603F77528CDEA07002FF965 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3603F77C28CDECED002FF965 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3603F77F28CDED80002FF965 /* CoordinateSpace */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3603F77F28CDED80002FF965 /* CoordinateSpace */ = {
+			isa = PBXGroup;
+			children = (
+				3603F77D28CDED0F002FF965 /* CoordinateSpaceView.swift */,
+			);
+			path = CoordinateSpace;
+			sourceTree = "<group>";
+		};
+		3603F78028CDED97002FF965 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3603F78128CDEDC0002FF965 /* PreferenceKeys */ = {
+			isa = PBXGroup;
+			children = (
+				3603F78228CDEDEC002FF965 /* MidpointPreferenceKey.swift */,
+			);
+			path = PreferenceKeys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3603F77128CDEA03002FF965 /* ContentView.swift in Sources */,
+				3603F77E28CDED0F002FF965 /* CoordinateSpaceView.swift in Sources */,
+				3603F78328CDEDEC002FF965 /* MidpointPreferenceKey.swift in Sources */,
 				3603F76F28CDEA03002FF965 /* SampleProjectsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

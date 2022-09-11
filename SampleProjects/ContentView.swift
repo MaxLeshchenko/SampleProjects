@@ -8,10 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+	var body: some View {
+		NavigationView {
+			List {
+				NavigationLink("Coordinate Space", destination: CoordinateSpaceView())
+			}
+		}
+		.navigationTitle("Code Samples")
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {
